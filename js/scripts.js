@@ -6,8 +6,11 @@ $(document).ready(function() {
   //   $(".name1").text(varname);
   // });
   var age = parseInt(prompt("How old are you?"));
+
     if (age >= 18) {
-      $('#gridbox').show();
+      $('#over18').show();
+    } else {
+        $('#under18').show();
     }
   });
 
@@ -23,4 +26,3 @@ $(document).ready(function() {
     console.log(varfoods);
     $("#output").text(result);
   });
-});

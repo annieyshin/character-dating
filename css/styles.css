@@ -68,6 +68,16 @@ height: 60px;
 display: none;
 }
 
-#gridbox {
+#over18 {
   display: none;
+}
+
+#under18 {
+  color: #663399;
+  font-size: 40pt;
+  display: none;
+}
+
+.corn {
+color:red;
 }
