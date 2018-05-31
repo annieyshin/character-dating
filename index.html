@@ -16,7 +16,7 @@
       <h2><span class="titleformat">Which character best fits your personality?</span></h2>
       <h3>You've tried other dating websites, many based on mutual likes and interests, even mutually disliked things or interest! Character Dating offers something more, kind of like horoscope dating, but by creating a profile with a character archetype and matching you based on what characters other users select.
       </h3>
-      
+
       <div class="panel panel-default">
         <div class="panel-heading">
                 <p class="panel-title">Let's find out more about you:</p>
@@ -35,7 +35,20 @@
                   </form>
 
                 </div>
-                <div class="col-md-2">sexual-orientation</div>
+                <div class="col-md-2">sexual-orientation
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="Straight" value="Yes" checked>
+                      Straight
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="Gay" value="No">
+                      Queer/Homosexual<br>/Asexual
+                    </label>
+                  </div>
+                </div>
                 <div class="col-md-2">
                   <div class="form-group">Age<br>
                     <label for="born">Date of birth:</label>
@@ -45,13 +58,57 @@
                 </div>
                 <!-- PRACTICE IF OR BRANCHING FOR AGE IF STATEMENT -->
                   <!-- * if they are legal to date? Over 18? -->
-                <div class="col-md-2">  political party</div>
-                <div class="col-md-2">address</div>
-                <div class="col-md-2">email address</div>
+                <div class="col-md-2">  political party
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="Left" value="Yes" checked>
+                      Left Leaning
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="Right" value="No">
+                      Right Leaning
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2">address
+                  <form id="nameinput">
+                            <div class="form-group">
+                              <label for="name1">Street, City, State</label>
+                              <input id="name1" class="form-control" type="text">
+                            </div>
+                  </form>
+                </div>
+                <div class="col-md-2">email address
+                  <form id="nameinput">
+                            <div class="form-group">
+                              <label for="name1">Contact Email</label>
+                              <input id="name1" class="form-control" type="text">
+                            </div>
+                  </form>
+                </div>
               </div>
               <div class="row">
-                <div class="col-md-2">height</div>
-                <div class="col-md-2">body type</div>
+                <div class="col-md-2">height
+                  <form id="nameinput">
+                            <div class="form-group">
+                              <label for="name1">in inches</label>
+                              <input id="name1" class="form-control" type="text">
+                            </div>
+                  </form>
+                </div>
+                <div class="col-md-2">body type
+                  <br>
+                  <br>
+                  <select class="form-control" id="body-type">
+                    <option value="1">Average</option>
+                    <option value="2">Ripped</option>
+                    <option value="3">Slim</option>
+                    <option value="4">More to Love</option>
+                    <option value="5">Rounded</option>
+                  </select>
+                </div>
                 <div class="col-md-2">how often do you work out?
                   <div class="radio">
                     <label>
@@ -113,6 +170,8 @@
 
               <div class="row">
                 <div class="col-md-2">favorite-foods
+                  <br>
+                  <br>
                   <select class="form-control" id="foods">
                     <option value="1">Bland</option>
                     <option value="2">Vegan</option>
@@ -124,6 +183,8 @@
 
 
                 <div class="col-md-2">favorite-music
+                  <br>
+                  <br>
                   <select class="form-control" id="music">
                     <option value="1">Classical</option>
                     <option value="2">Folk/Country</option>
@@ -133,6 +194,8 @@
                   </select>
                 </div> <!-- FAVORITE MUSIC DIV ENDING -->
                 <div class="col-md-2">favorite color
+                  <br>
+                  <br>
                   <select class="form-control" id="color">
                     <option value="1">Pink</option>
                     <option value="2">Green</option>
@@ -142,6 +205,8 @@
                   </select>
                 </div> <!-- FAVORITE COLOR DIV ENDING -->
                 <div class="col-md-2">favorite animal
+                  <br>
+                  <br>
                   <select class="form-control" id="animal">
                     <option value="1">Earth Worm</option>
                     <option value="2">Cow</option>
@@ -160,6 +225,8 @@
                   </select>
                 </div> <!-- FAVORITE TV/SHOW GENRE DIV ENDING -->
                 <div class="col-md-2">favorite book genre
+                  <br>
+                  <br>
                   <select class="form-control" id="book">
                     <option value="1">Non-Fiction</option>
                     <option value="2">Romance</option>
