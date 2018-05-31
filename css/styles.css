@@ -1,10 +1,21 @@
 .col-md-2 {
-  margin: 3px solid pink;
-  border: 2px solid lightgreen;
-  padding: 2px solid white;
-  background-color: #D7F2EB;
-  height: 100px;
-  
+
+  border: 3px solid gold;
+  padding: 12px;
+  background-color: lightgray;
+  height: 150px;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: 300;
+  font-family: sans-serif;
+  margin-bottom: : 4px;
 
 
+
+
+}
+
+body {
+
+  background-color: #B1C5F4;
 }

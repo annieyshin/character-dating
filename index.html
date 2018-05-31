@@ -17,14 +17,28 @@
 
       <p>
         <h4>Let's find out more about you:</h4>
-
+      </p>
         <!-- NO CHECKBOXES   -->
 
 
             <div class="row">
-              <div class="col-md-2">name</div>
+              <div class="col-md-2">Enter
+                <form id="nameinput">
+                          <div class="form-group">
+                            <label for="name1">Username</label>
+                            <input id="name1" class="form-control" type="text">
+                          </div>
+                </form>
+
+              </div>
               <div class="col-md-2">sexual-orientation</div>
-              <div class="col-md-2">age</div>
+              <div class="col-md-2">
+                <div class="form-group">Age<br>
+                  <label for="born">Date of birth:</label>
+                  <input id="born" class="form-control" type="date">
+
+                </div>
+              </div>
               <!-- PRACTICE IF OR BRANCHING FOR AGE IF STATEMENT -->
                 <!-- * if they are legal to date? Over 18? -->
               <div class="col-md-2">  political party</div>
@@ -34,11 +48,65 @@
             <div class="row">
               <div class="col-md-2">height</div>
               <div class="col-md-2">body type</div>
-              <div class="col-md-2">how often do you work out?</div>
-              <div class="col-md-2">Do you like to hike?</div>
-              <div class="col-md-2">Do you like to travel?</div>
-              <div class="col-md-2">Do you consider yourself a hero or villain type?</div>
-            </div>
+              <div class="col-md-2">how often do you work out?
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="workout" value="Yes" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="workout" value="No">
+                    No
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-2">Do you like to hike?
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hike" value="Yes" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hike" value="No">
+                    No
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-2">Do you like to travel?
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="travel" value="Yes" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="travel" value="No">
+                    No
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-2">Do you consider yourself a hero or villain type?
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hero" value="Yes" checked>
+                    Hero
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hero" value="No">
+                    Villain
+                  </label>
+                </div>
+              </div>
+
+            </div>   <!-- ROW DIV ENDING -->
+
             <div class="row">
               <div class="col-md-2">favorite-foods
                 <select class="form-control" id="foods">
@@ -60,9 +128,9 @@
                   <option value="5">Death Metal</option>
                 </select>
               </div> <!-- FAVORITE MUSIC DIV ENDING -->
-              <div class="col-md-2">favorite color</div>
+              <div class="col-md-2">favorite color
                 <select class="form-control" id="color">
-                  <option value="1">Grey</option>
+                  <option value="1">Pink</option>
                   <option value="2">Green</option>
                   <option value="3">Brown</option>
                   <option value="4">Yellow</option>
@@ -78,8 +146,8 @@
                   <option value="5">Vulture</option>
                 </select>
               </div> <!-- FAVORITE ANIMAL DIV ENDING -->
-              <div class="col-md-2">favorite tv show/movie genre
-                <select class="form-control" id="show/movie">
+              <div class="col-md-2">favorite show/movie genre
+                <select class="form-control" id="show-movie">
                   <option value="1">Documentary</option>
                   <option value="2">Romance</option>
                   <option value="3">Comedy</option>
@@ -98,11 +166,14 @@
               </div> <!-- FAVORITE BOOK GENRE DIV ENDING -->
             </div>
 
-
 <!-- AFTER USER DATA INPUT, FIND OUT WHICH FICTIONAL CHARACTER THE USER MOST RESEMBLES -->
 <!-- ADD IN CHARACTERS FROM MARVEL, HARRY POTTER, SAILOR MOON, and PRINCE AND PRINCESSES -->
-      </p>
-
+      <br>
+      <br>
+      <button type="submit" class="btn-info" id="submit">Result!</button>
+      <div id="output">
+oafjsofdjsiofjdsoifjd
+      </div>
     </div>  <!-- CONTAINER DIV ENDING -->
 
 

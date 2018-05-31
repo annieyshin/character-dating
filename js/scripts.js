@@ -1,11 +1,27 @@
 // BUSINESS LOGIC
 
-var foods = $("#foods").val();
-var foods = $("#music").val();
-var foods = $("#color").val();
-var foods = $("#animal").val();
-var foods = $("#show/movie").val();
-var foods = $("#book").val();
 
+//
+// var varcolor = $("#color").val();
+//
+// var varshow = $("#show").val();
+// var varbook = $("#book").val();
+//
+// var varname = $("input#name1").val();
 
 // USER INTERFACE
+$(document).ready(function() {
+  $("#nameinput").submit(function() {
+    $(".name1").text(varname);
+  });
+
+  $("#submit").click(function(e) {
+    e.preventDefault();
+    var varfoods = parseInt($("#foods").val());
+    var varmusic = parseInt($("#music").val());
+    var varanimal = parseInt($("#animal").val());
+    var result = varfoods + varmusic + varanimal;
+    console.log(varfoods);
+    $("#output").text(result);
+  });
+});
