@@ -1,14 +1,5 @@
 // BUSINESS LOGIC
 
-
-//
-// var varcolor = $("#color").val();
-//
-// var varshow = $("#show").val();
-// var varbook = $("#book").val();
-//
-// var varname = $("input#name1").val();
-
 // USER INTERFACE
 $(document).ready(function() {
   $("#nameinput").submit(function() {
@@ -19,8 +10,11 @@ $(document).ready(function() {
     e.preventDefault();
     var varfoods = parseInt($("#foods").val());
     var varmusic = parseInt($("#music").val());
+    var varcolor = parseInt($("#color").val());
     var varanimal = parseInt($("#animal").val());
-    var result = varfoods + varmusic + varanimal;
+    var varmovie = parseInt($("#movie").val());
+    var varbook = parseInt($("#book").val());
+    var result = varfoods + varmusic + varcolor + varanimal + varmovie + varbook;
     console.log(varfoods);
     $("#output").text(result);
   });
