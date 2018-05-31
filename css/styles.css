@@ -39,7 +39,7 @@ body {
 
 .panel-title {
 font-size: 20pt;
-color: blue;
+color: orange;
 font-family: serif;
 height: 60px;
 /*text-align: center;*/
@@ -48,11 +48,18 @@ height: 60px;
 .radio {}
 
 #output {
-font-size: 26pt;
+font-size: 20pt;
 }
 
-.btn-danger {
-height: 80px;
-width: 80px;
-margin: 20px;
+.btn-success{
+height: 60px;
+width: 60px;
+margin: 5px;
+}
+
+.panel-title2 {
+font-size: 20pt;
+font-family: serif;
+height: 60px;
+/*text-align: center;*/
 }
