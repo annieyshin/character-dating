@@ -2,9 +2,7 @@
 
 // USER INTERFACE
 $(document).ready(function() {
-  // $("#nameinput").submit(function() {
-  //   $(".name1").text(varname);
-  // });
+
   var age = parseInt(prompt("How old are you?"));
 
     if (age >= 18) {
@@ -12,18 +10,9 @@ $(document).ready(function() {
     } else {
         $('#under18').show();
     }
-  });
 
-  // $("form#sexual").submit(function() {
-  //   var sex = $("select#sexualpick").val();
-  //
-  //     if (sex === 'gay') {
-  //       $('#gaybox').show();
-  //     } else {
-  //         $('#straightbox').show();
-  //     }
-$(document).ready(function() {
-  $("#submit").click(function(event) {
+  $("#submit").submit(function(event) {
+    console.log("reached");
     event.preventDefault();
     var varfoods = parseInt($("#foods").val());
     var varmusic = parseInt($("#music").val());
@@ -33,6 +22,15 @@ $(document).ready(function() {
     var varbook = parseInt($("#book").val());
     var result = varfoods + varmusic + varcolor + varanimal + varmovie + varbook;
     console.log(varfoods);
+
+    // var sex = $("select#sexualpick").val();
+    //
+    //   if (sex === 'gay') {
+    //     $('#gaybox').show();
+    //   } else {
+    //       $('#straightbox').show();
+    //   }
+
     $("#output").text(result);
     });
   });
