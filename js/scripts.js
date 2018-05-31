@@ -14,8 +14,17 @@ $(document).ready(function() {
     }
   });
 
-  $("#submit").click(function(e) {
-    e.preventDefault();
+  // $("form#sexual").submit(function() {
+  //   var sex = $("select#sexualpick").val();
+  //
+  //     if (sex === 'gay') {
+  //       $('#gaybox').show();
+  //     } else {
+  //         $('#straightbox').show();
+  //     }
+$(document).ready(function() {
+  $("#submit").click(function(event) {
+    event.preventDefault();
     var varfoods = parseInt($("#foods").val());
     var varmusic = parseInt($("#music").val());
     var varcolor = parseInt($("#color").val());
@@ -25,4 +34,5 @@ $(document).ready(function() {
     var result = varfoods + varmusic + varcolor + varanimal + varmovie + varbook;
     console.log(varfoods);
     $("#output").text(result);
+    });
   });

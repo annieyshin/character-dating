@@ -23,6 +23,7 @@
         </p>
       </div>
 
+<!-- <form> -->
       <div id="over18">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -39,20 +40,28 @@
                     </form>
 
                   </div>
-                  <div class="col-md-2">sexual-orientation
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="Straight" value="Yes" checked>
-                        Straight
-                      </label>
+                  <!-- SEXUAL ORIENTATION -->
+                  <form id="sexual">
+                    <div class="col-md-2">sexual-orientation
+                      <select id="sexualpick">
+                        <option value="straight">Heterosexual</option>
+                        <option value="gay">LGBT</option>
+                      </select>
+                      <!-- <div class="radio">
+                        <label>
+                          <input type="radio" name="Straight" value="Yes" checked>
+                          Straight
+                        </label>
+                      </div> -->
+                      <!-- <div class="radio">
+                        <label>
+                          <input type="radio" name="Gay" value="No">
+                          Queer/Homosexual<br>/Asexual
+                        </label>
+                      </div> -->
                     </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="Gay" value="No">
-                        Queer/Homosexual<br>/Asexual
-                      </label>
-                    </div>
-                  </div>
+                  </form>
+
                   <div class="col-md-2">Do you like the dark side?
                     <div class="radio">
                       <label>
@@ -257,6 +266,8 @@
                   <!-- ADD IN CHARACTERS FROM MARVEL, HARRY POTTER, SAILOR MOON, and PRINCE AND PRINCESSES -->
                 <br>
                 <button type="submit" class="btn-success" id="submit">Result!</button>
+
+<!-- </form> -->
                 <div id="output"> Find out your character score here! </div>
           </div>  <!-- Gridbox DIV ENDING -->
         </div>  <!-- Panel body DIV ENDING -->
@@ -264,7 +275,7 @@
 
 
 
-      <div class="character-list">
+      <div id="straightbox">
       <div class="panel panel-success">
         <div class="panel-heading">
                 <p class="panel-title2">What kind of character are you? </p>
@@ -272,7 +283,6 @@
 
         <div class="panel-body">
 
-          <div class="gridbox2">
               <div class="row">
                 <div class="col-md-3">Score: 1-7
                   <ul>
@@ -299,11 +309,47 @@
                   </ul>
                 </div>
               </div>  <!-- 2nd row class DIV ENDING -->
-          </div>  <!-- 2nd gridbox DIV ENDING -->
         </div>  <!-- 2nd Panel body DIV ENDING -->
       </div>  <!-- 2nd panel panel DIV ENDING -->
-      </div>  <!-- character DIV ENDING -->
+    </div>  <!-- straight box DIV ENDING -->
 
+    <div id="gaybox">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+              <p class="panel-title2">What kind of LGBTQ character are you? </p>
+      </div>
+
+      <div class="panel-body">
+
+            <div class="row">
+              <div class="col-md-3">Score: 1-7
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 8-15
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 16-22
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 23-30
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+            </div>  <!-- 2nd row class DIV ENDING -->
+      </div>  <!-- 2nd Panel body DIV ENDING -->
+    </div>  <!-- 2nd panel panel DIV ENDING -->
+  </div>  <!-- gay box DIV ENDING -->
 
     </div>  <!-- CONTAINER DIV ENDING -->
 
