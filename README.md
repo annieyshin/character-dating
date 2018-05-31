@@ -1,37 +1,41 @@
-# _{Application Name}_
+# _{Character Dating Website}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{jQuery, HTML, CSS, JavaScript, branching, button input, and logic coding exercise by Epicodus}, {May 31, 2018}_
 
-#### By _**{List of contributors}**_
+#### By _**{Kyle Parsons & Annie Shin}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This website was created as a training exercise for the contributors to practice their JavaScript, CSS, and HTML coding, as well as if then or else statement logic. The user will enter data about themselves in order to create a dating profile, based upon their likes and interests, a character archetype will also be assigned to the user based upon data input. Character archetypes have compatibility with one another, so a match can be made upon typical dating website data but also the user can take into account character profiles as well when making a match.}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _No special set up or installation requirements necessary_
+* _Works on standard web browsers: owner5563.github.io/character-dating -OR- annieyshin.github.io/character-dating_
+}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{At the moment there are no known bugs, if that should change please contact us via the email information below. }_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{If you run into any issues, please contact Kyle Parsons & Annie Shin via email:
+23gdsm@gmail.com -OR- annieyshin@gmail.com.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
+We additionally used bootstrap css, to create this website!!!!!
+  }_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{This software is licensed under the MIT license}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_{Kyle Parsons & Annie Shin}_**
