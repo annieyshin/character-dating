@@ -39,9 +39,20 @@ body {
 
 .panel-title {
 font-size: 20pt;
-color: purple;
+color: blue;
 font-family: serif;
+height: 60px;
 /*text-align: center;*/
 }
 
 .radio {}
+
+#output {
+font-size: 26pt;
+}
+
+.btn-danger {
+height: 80px;
+width: 80px;
+margin: 20px;
+}
