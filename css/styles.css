@@ -1,21 +1,47 @@
 .col-md-2 {
-
-  border: 3px solid gold;
+  border: 5px solid gray;
   padding: 12px;
   background-color: lightgray;
-  height: 150px;
+  height: 160px;
   text-align: center;
   font-size: 12pt;
   font-weight: 300;
   font-family: sans-serif;
-  margin-bottom: : 4px;
+  /*margin-bottom: : 4px;*/
+}
 
+.gridbox {}
 
+.panel-body {
+background-color: gray;
+}
 
+.jumbotron {
+background-color: purple;
+font-family: cursive;
+width: 100%;
+color: violet;
+border: 17px solid #F49BE9;
+}
 
+.container {
+width: 100%;
 }
 
 body {
-
-  background-color: #B1C5F4;
+  background-color: #D2E0F6;
 }
+
+.titleformat {
+  color: purple;
+  font-family: cursive;
+}
+
+.panel-title {
+font-size: 20pt;
+color: purple;
+font-family: serif;
+/*text-align: center;*/
+}
+
+.radio {}
