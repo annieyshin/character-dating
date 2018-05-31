@@ -39,7 +39,7 @@ body {
 
 .panel-title {
 font-size: 20pt;
-color: orange;
+color: purple;
 font-family: serif;
 height: 60px;
 /*text-align: center;*/
@@ -62,4 +62,12 @@ font-size: 20pt;
 font-family: serif;
 height: 60px;
 /*text-align: center;*/
+}
+
+.character-list {
+display: none;
+}
+
+#gridbox {
+  display: none;
 }

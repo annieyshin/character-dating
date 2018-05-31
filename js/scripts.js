@@ -2,8 +2,13 @@
 
 // USER INTERFACE
 $(document).ready(function() {
-  $("#nameinput").submit(function() {
-    $(".name1").text(varname);
+  // $("#nameinput").submit(function() {
+  //   $(".name1").text(varname);
+  // });
+  var age = parseInt(prompt("How old are you?"));
+    if (age >= 18) {
+      $('#gridbox').show();
+    }
   });
 
   $("#submit").click(function(e) {
