@@ -8,10 +8,10 @@ $(document).ready(function() {
     if (age >= 18) {
       $('#over18').show();
     } else {
-        $('#under18').show();
+      $('#under18').show();
     }
 
-  $("#submit").submit(function(event) {
+  $("#submit").click(function(event) {
     console.log("reached");
     event.preventDefault();
     var varfoods = parseInt($("#foods").val());
@@ -23,13 +23,13 @@ $(document).ready(function() {
     var result = varfoods + varmusic + varcolor + varanimal + varmovie + varbook;
     console.log(varfoods);
 
-    // var sex = $("select#sexualpick").val();
-    //
-    //   if (sex === 'gay') {
-    //     $('#gaybox').show();
-    //   } else {
-    //       $('#straightbox').show();
-    //   }
+    var sex = $("select#sexualpick").val();
+
+      if (sex === 'gay') {
+        $('#gaybox').show();
+      } else {
+        $('#straightbox').show();
+      }
 
     $("#output").text(result);
     });
